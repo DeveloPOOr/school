@@ -14,7 +14,21 @@ public class Subsequence {
      */
     @SuppressWarnings("rawtypes")
     public boolean find(List x, List y) {
-        // TODO: Implement the logic here
-        return false;
+        int check = 0;
+        int j = 0;
+
+        if (x == null || y == null) {
+            throw new IllegalArgumentException();
+        }
+        outer:
+        for(Object x1 : x) {
+            for (;j < y.size(); j ++) {
+                if(x1.equals(y.get(j))) {
+                    check ++;
+                    continue outer;
+                }
+            }
+        }
+        return check == x.size()? true : false;
     }
 }
