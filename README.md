@@ -11,11 +11,10 @@ The exam includes 3 tasks to be done: [Calculator](/tasks/Calculator.md), [Pyram
 
 ### Result ###
 
-* Author name : {PUT YOUR NAME HERE}
-* Codeship : {PUT YOUR CODESHIP BAGDE HERE}
+* Author name : Чикилев Данил Алексеевич
+* Codeship : [![Codeship Status for DeveloPOOr/school](https://app.codeship.com/projects/44500398-fff9-42ca-b374-211b3ef05915/status?branch=master)](https://app.codeship.com/projects/419790)
 
-Example of Codeship badge. Please remove the example before you send us the link. 
-[ ![Codeship Status for tschool/javaschoolexam](https://app.codeship.com/projects/a9af8940-d130-0134-89a6-5e8aaaa2a5a2/status?branch=master)](https://app.codeship.com/projects/201451)
+
 
 
 ### How to start?  ###
